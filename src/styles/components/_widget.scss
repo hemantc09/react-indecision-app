@@ -1,0 +1,41 @@
+//widget
+.widget {
+    background: $light-blue;
+    margin-bottom: $xl-size;
+}
+
+//create a widget element selector [message]- use it on p tag 
+// off-white color
+//no margin
+//$l-size padding
+//center the text using text-align
+//set border-bottom to a 1 px solid border lighten version of the light-blue
+
+//widget element __ for messafge
+.widget__message {
+    border-bottom: 1px solid lighten($color: $blue, $amount: 10%);
+    color: $off-white;
+    margin: 0;
+    padding: $l-size;
+    text-align: center;
+}
+
+//widget header
+.widget-header {
+    background: $blue;
+    color: $off-white;
+    //we re using flex box
+    display: flex;
+    //this will show the "your option" and remove all" left right with even space discrtubution
+    justify-content: space-between;
+    padding: $m-size;
+}
+
+//set element selector widget-header call it title
+ //se tmargin 0
+ // use the class
+
+ //element seelctor
+ .widget-header__title {
+     margin: 0;
+ }
