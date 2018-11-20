@@ -7,10 +7,5 @@ import IndecesionApp from './components/IndecesionApp'
 import 'normalize.css/normalize.css';
 //load the css file
 import './styles/styles.scss';
-const port = process.env.PORT || 3000;
 
 ReactDOM.render(<IndecesionApp />,document.getElementById('app'));
-
-app.listen(port,() =>{
-    console.log("server is up");
-});
