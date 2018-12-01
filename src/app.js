@@ -8,4 +8,6 @@ import 'normalize.css/normalize.css';
 //load the css file
 import './styles/styles.scss';
 
+//console.log('test');
+
 ReactDOM.render(<IndecesionApp />,document.getElementById('app'));
