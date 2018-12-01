@@ -36,10 +36,7 @@
   },
   "description": "",
   "devDependencies": {},
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/hemantc09/react-indecision-app.git"
-  },
+  "repository": "git+https://github.com/hemantc09/react-indecision-app.git",
   "bugs": {
     "url": "https://github.com/hemantc09/react-indecision-app/issues"
   },
